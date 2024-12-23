@@ -90,7 +90,8 @@ export default {
     response: '回應',
     please_enter_jsonpath: '請輸入 JsonPath',
     enter_parameter_name: '請輸入參數名稱',
-    enter_default_value: '請輸入預設值'
+    enter_default_value: '請輸入預設值',
+    enter_first_page: '請輸入第一頁的頁碼'
   },
   operate_log: {
     name: '操作日誌',
@@ -265,6 +266,7 @@ export default {
     view_data_structure: '查看資料結構',
     the_data_structure: '暫無數據，請在資料結構勾選欄位',
     parameter: '參數',
+    page_parameter: '分页參數',
     fixed_value: '固定值',
     time_function: '時間函數',
     customize: '自訂',
@@ -1556,6 +1558,17 @@ export default {
     data_sub: '對比差值',
     data_percent: '差值百分比',
     compare_calc_expression: '計算公式',
+    compare_calc_day_pre: '昨日數據',
+    compare_calc_day_sub: '當天數據 - 昨日數據',
+    compare_calc_day_percent: '（當天數據 / 昨日數據 - 1）* 100%',
+    compare_calc_month_pre: '上月同日數據',
+    compare_calc_month_sub: '當天數據 - 上月同日數據',
+    compare_calc_month_percent: '（當天數據 / 上月同日數據 - 1）* 100%',
+    compare_calc_year_pre: '去年同月同日數據',
+    compare_calc_year_sub: '當天數據 - 去年同月同日數據',
+    compare_calc_year_percent: '（當天數據 / 去年同月同日數據 - 1）* 100%',
+    compare_calc_tip:
+      '當對比日期需要過濾時，請使用過濾組件實現過濾；使用圖表過濾器，儀表板下鑽和聯動等功能，會導致結果不一致',
     and: '與',
     or: '或',
     logic_exp: '邏輯條件',

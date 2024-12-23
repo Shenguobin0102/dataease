@@ -90,7 +90,8 @@ export default {
     response: 'Response',
     please_enter_jsonpath: 'Please enter JsonPath',
     enter_parameter_name: 'Please enter parameter name',
-    enter_default_value: 'Please enter default value'
+    enter_default_value: 'Please enter default value',
+    enter_first_page: 'Please enter the page number of the first page'
   },
   operate_log: {
     name: 'Operation log',
@@ -273,6 +274,7 @@ export default {
     view_data_structure: 'View data structure',
     the_data_structure: 'No data yet, please check the fields in the data structure',
     parameter: 'Parameter',
+    page_parameter: 'Page Parameter',
     fixed_value: 'Fixed value',
     time_function: 'Time function',
     customize: 'Customize',
@@ -1586,6 +1588,17 @@ export default {
     data_sub: 'Comparison difference',
     data_percent: 'Difference percentage',
     compare_calc_expression: 'Calculation formula',
+    compare_calc_day_pre: 'Previous Day Data',
+    compare_calc_day_sub: "Today's Data - Previous Day Data",
+    compare_calc_day_percent: "(Today's Data / Previous Day Data - 1) * 100%",
+    compare_calc_month_pre: 'Same Day Last Month Data',
+    compare_calc_month_sub: "Today's Data - Same Day Last Month Data",
+    compare_calc_month_percent: "(Today's Data / Same Day Last Month Data - 1) * 100%",
+    compare_calc_year_pre: 'Same Day Last Year Data',
+    compare_calc_year_sub: "Today's Data - Same Day Last Year Data",
+    compare_calc_year_percent: "(Today's Data / Same Day Last Year Data - 1) * 100%",
+    compare_calc_tip:
+      'When filtering is required for comparison dates, please use the filter component to apply the filter; using chart filters, dashboard drilling, and linking functions may lead to inconsistent results.',
     and: 'And',
     or: 'Or',
     logic_exp: 'Logical condition',

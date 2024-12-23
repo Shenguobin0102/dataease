@@ -91,7 +91,8 @@ export default {
     response: '响应',
     please_enter_jsonpath: '请输入 JsonPath',
     enter_parameter_name: '请输入参数名称',
-    enter_default_value: '请输入默认值'
+    enter_default_value: '请输入默认值',
+    enter_first_page: '请输入第一页的页码'
   },
   operate_log: {
     name: '操作日志',
@@ -266,6 +267,7 @@ export default {
     view_data_structure: '查看数据结构',
     the_data_structure: '暂无数据，请在数据结构勾选字段',
     parameter: '参数',
+    page_parameter: '分页参数',
     fixed_value: '固定值',
     time_function: '时间函数',
     customize: '自定义',
@@ -1558,6 +1560,17 @@ export default {
     data_sub: '对比差值',
     data_percent: '差值百分比',
     compare_calc_expression: '计算公式',
+    compare_calc_day_pre: '昨日数据',
+    compare_calc_day_sub: '当天数据 - 昨日数据',
+    compare_calc_day_percent: '（当天数据 / 昨日数据 - 1）* 100%',
+    compare_calc_month_pre: '上月同日数据',
+    compare_calc_month_sub: '当天数据 - 上月同日数据',
+    compare_calc_month_percent: '（当天数据 / 上月同日数据 - 1）* 100%',
+    compare_calc_year_pre: '去年同月同日数据',
+    compare_calc_year_sub: '当天数据 - 去年同月同日数据',
+    compare_calc_year_percent: '（当天数据 / 去年同月同日数据 - 1）* 100%',
+    compare_calc_tip:
+      '当对比日期需要过滤时，请使用过滤组件实现过滤；使用图表过滤器，仪表板下钻和联动等功能，会导致结果不一致',
     and: '与',
     or: '或',
     logic_exp: '逻辑条件',
